@@ -8,7 +8,7 @@ class Ennemy:
 
     def __init__(self, main, xcor, ycor):
         self.health = 100
-        pass
+        passa
 
 
 class Player:
