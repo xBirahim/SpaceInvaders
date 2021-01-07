@@ -19,7 +19,5 @@ Classes :
 
 
 -\-\-\-\-\-\-\-\-\-
-git add *
-git commit -m 'message'
-git push
-git pull
+
+- Regler le bug de la horde ( tous les ennemis tournent vers la droite quand la vitesse accelere)
