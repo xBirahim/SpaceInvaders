@@ -11,7 +11,7 @@ class Ennemy:
     def __init__(self, xcor=500, ycor=200):
         self.xcor = xcor
         self.ycor = ycor
-        self.velocity = 10
+        self.velocity = 1
         self.health = 100
         self.lasers = []
         self.rep = place.create_oval(self.xcor - 10, self.ycor - 10, self.xcor + 10, self.ycor + 10,
@@ -28,7 +28,7 @@ class Ennemy:
         place.coords(self.rep, self.xcor - 10, self.ycor - 10, self.xcor + 10, self.ycor + 10)
 
         try:
-            mainwindow.after(50, self.move)
+            mainwindow.after(10, self.move)
         except TclError:
             print("Bruh")
 
@@ -135,7 +135,5 @@ place.focus_set()
 place.bind("<Key>", player.action)
 
 ennemy = Ennemy()
-
-
 
 mainwindow.mainloop()

@@ -1,14 +1,24 @@
-- Ajout du background
-- Ajout des images de vaisseau
+Classes :
+- Player
+    _Gestion des collisions
+    _Associer une image
 
-- Creation de classe:
-    *Ennemy
-        +Differents types (dans le futur)
-- Faire l'interface
+- Laser
+    _Gestion des collisions
+    _Associer une image
 
+- Ennmy
+    _Gestion des collisions
+    _Associer une image
 
 -\-\-\-\-\-\-\-\-\-
 
+- Créer une classe Horde (ensemble des différents ennemis)
+- Créer des sous-classes de Ennemy ( Ennemis plus puissants, etc)
+- Creer une classe bonus (rapid fire, invincibilité etc)
+
+
+-\-\-\-\-\-\-\-\-\-
 git add *
 git commit -m 'message'
 git push
