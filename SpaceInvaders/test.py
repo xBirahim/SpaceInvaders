@@ -67,6 +67,8 @@ place = Canvas(gameplace,
                width=1000,
                height=800,
                bg="grey")
+Fond = PhotoImage(file='Images/space.png')
+place.create_image(0,0,anchor=NW,image=Fond)
 place.pack()
 
 player = Player(xcor=900, ycor=400)
