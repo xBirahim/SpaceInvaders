@@ -1,5 +1,6 @@
 - Ajout du background
 - Ajout des images de vaisseau
+
 - Creation de classe:
     *Ennemy
         +Differents types (dans le futur)
