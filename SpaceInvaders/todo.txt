@@ -4,3 +4,11 @@
     *Ennemy
         +Differents types (dans le futur)
 - Faire l'interface
+
+
+-\-\-\-\-\-\-\-\-\-
+
+git add *
+git commit -m 'message'
+git push
+git pull
